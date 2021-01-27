@@ -47,7 +47,7 @@ export default {
       // add postcss config with tailwind
       preprocess: sveltePreprocess({
         postcss: {
-          plugins: [require("tailwindcss")],
+          plugins: [require("tailwindcss"), require("autoprefixer")],
         },
       }),
       compilerOptions: {
