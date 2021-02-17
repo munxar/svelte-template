@@ -2,4 +2,4 @@
   export let name = "Logo";
 </script>
 
-<div>{name}</div>
+<div class:bg-purple-100={true}>{name}</div>
